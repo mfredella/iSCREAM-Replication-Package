@@ -32,7 +32,7 @@ mvn package
 ```
 
 ## Using the tool
-ISCREAM   provides   a   user-friendly   graphical   interface(GUI).  Alternatively,  it  can  also  be  used  from  the  command line.
+iSCREAM   provides   a   user-friendly   graphical   interface(GUI).  Alternatively,  it  can  also  be  used  from  the  command line.
 ### 1) Using via GUI
 Go to folder 'target', double click on 'iSCREAM-jar-with-dependencies.jar'. When  launching  the  GUI,  a  home  screen  containing two buttons is visualized (as shown in next figure).
 
