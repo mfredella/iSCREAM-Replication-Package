@@ -1,6 +1,6 @@
 # iSCREAM
-iSCREAM(suite forSmartContractREAdability assessMent) is a tool for helping developers and researchers more easily estimating the code readability of Solidity smart contracts.
-Currently, it supports the following readability metrics:
+iSCREAM (suite for Smart Contract REAdability assessMent) is a tool for helping developers and researchers more easily estimating the code readability of Solidity smart contracts.
+It supports the following readability metrics:
 |ID | Metric| Avg | Max |
 |:---:|:-------:|:-----:|:-----:|
 |1 | Assignment |  X |  |                              
