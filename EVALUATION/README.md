@@ -1,13 +1,10 @@
 # iSCREAM - Evaluation 
-To evaluate the tool, we extracted the source code of 2,186 Solidity smart contracts (see Dataset.zip file).
-To ensure that the tool can correctly compute metrics on functions of various sizes, we selected 90 functions of different sizes to conduct manual verification.
-The features were divided into three categories: small (number of lines less than 35), medium (number of lines between 35 and 68), and high (number of lines greater than 68).
-For each of the three categories, we randomly selected 30 features for manual verification.
-The tables divided by category are shown below.
+To evaluate the tool, we extracted the source code of 2,186 Solidity smart contracts (see Dataset.zip file). To ensure that the tool can correctly compute metrics on functions of various sizes, from the 2,186 smart contracts, we selected 90 functions for manual verification. In particular, we first divided all the functions belonging to the 2,186 smart contracts into three categories: low (i.e., functions with less than 35 lines of code), medium (i.e., functions with a number of lines of code between 35 and 68), and high (i.e., functions having more than 68 lines of code). Then, we randomly selected 30 functions for each category and manually verified the correctness of the tool's outputs. In the following, for each category, we report a table indicating the selected functions.
+
 
 ### Low category:
 
-|Solidity-File| Contract-Name|Function-Name|
+|Solidity-File|Contract-Name|Function-Name|
 |:--:|:--:|:--:|
 |0x0389a06b028526b05966c287370bebefa0082176_Dividend.sol|Dividend|SetProfitAddr|
 |0x0c24e3aa0fc411debf74f138674cf2066c2e0ace_FalconFarmer.sol|FalconFarmer|calculateTrade|
@@ -41,7 +38,7 @@ The tables divided by category are shown below.
 |0xf4cc5058f6eda259230438abd417d4afc39335d2_SingleSourceAuthority.sol|SingleSourceAuthority|SingleSourceAuthority|
 
 ### Medium category:
-|Solidity-File| Contract-Name|Function-Name|
+|Solidity-File|Contract-Name|Function-Name|
 |:--:|:--:|:--:|
 |0x0e0a86c97a07856d68bf3387aeb9430dbab93245_InterbetCore.sol|InterbetCore|takeBet|
 |0x167cb3f2446f829eb327344b66e271d1a7efec9a_GandhiJi.sol|GandhiJi|purchaseTokens|
